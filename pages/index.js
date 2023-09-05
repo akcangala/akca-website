@@ -32,15 +32,22 @@ export default function Home() {
   }
   return (
     <div className='container'>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div className='info'>
         <p className='name'>Front-End Developer in Progress </p>
         <div className='contacts'>
-          <Image className="icons" src={phone} height={36} />
-          <a href="tel:+639167882334">09167882334</a>
-          <Image className="icons" src={mail} height={36} />
-          <a href='mailto:akcangala@gmail.com'>akcangala@gmail.com</a>
-          <Image className="icons" src={linkedin} height={36} />
-          <a href='https://www.linkedin.com/in/allen-kyle-angala-8253aa243/'>Allen Kyle Angala</a>
+          <div className='px425'>
+            <Image className="icons" src={phone} height={36} />
+            <a href="tel:+639167882334">09167882334</a>
+          </div>
+          <div className='px425'>
+            <Image className="icons" src={mail} height={36} />
+            <a href='mailto:akcangala@gmail.com'>akcangala@gmail.com</a>
+          </div>
+          <div className='px425'>
+            <Image className="icons" src={linkedin} height={36} />
+            <a href='https://www.linkedin.com/in/allen-kyle-angala-8253aa243/'>Allen Kyle Angala</a>
+          </div>
         </div>
         <div className='buttons'>
           <button onClick={onButtonClick} class="button button1">Download CV</button>
@@ -148,8 +155,10 @@ export default function Home() {
       <div className='footer'>
 
         <p>Made with <FaReact className='FaReact' /></p>
+        <div className='px320'>
         <p><FaRegCopyright className='FaRegCopyright' /> 2023 </p>
         <p>Allen Kyle Angala</p>
+        </div>
 
       </div>
 
