@@ -104,7 +104,7 @@ export default function Home() {
 
       <div id="port" className='projects'>
         <p className='recProjects'>My Recent Projects</p>
-        <p>Here are the past projects I've worked and currently working on.</p>
+        <p>Here are the past projects I've worked on and currently working on.</p>
         <div className='projContainer'>
           <div className='proj proj1'>
             <div className='textBlock'>
@@ -145,10 +145,11 @@ export default function Home() {
         <p>- Hikigaya Hachiman (Oregairu)</p>
       </div> */}
 
-      <div className='footer'> 
+      <div className='footer'>
 
-        <p><FaRegCopyright className='FaRegCopyright' /> 2023 </p>
         <p>Made with <FaReact className='FaReact' /></p>
+        <p><FaRegCopyright className='FaRegCopyright' /> 2023 </p>
+        <p>Allen Kyle Angala</p>
 
       </div>
 
