@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className='skills'>
+      <div className='skills'>
         <div className='skillsContainer'>
           <div className='area'>
             <Image className='skillsIcon mBottom' src={backend} />
@@ -107,7 +107,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div id="port" className='projects'>
         <p className='recProjects'>My Recent Projects</p>
