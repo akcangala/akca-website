@@ -38,9 +38,9 @@ export default function Home() {
           <Image className="icons" src={phone} height={36} />
           <a href="tel:+639167882334">09167882334</a>
           <Image className="icons" src={mail} height={36} />
-          <a href=''>akcangala@gmail.com</a>
+          <a href='mailto:akcangala@gmail.com'>akcangala@gmail.com</a>
           <Image className="icons" src={linkedin} height={36} />
-          <a href=''>Allen Kyle Angala</a>
+          <a href='https://www.linkedin.com/in/allen-kyle-angala-8253aa243/'>Allen Kyle Angala</a>
         </div>
         <div className='buttons'>
           <button onClick={onButtonClick} class="button button1">Download CV</button>
