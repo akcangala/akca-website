@@ -127,7 +127,7 @@ export default function Home() {
           <div className='proj proj2'>
             <div className='textBlock'>
               <p>Recreated Genshin Impact's Character Website using ReactJS.</p>
-              <a href='https://phtrainingandconsultancy.com/'>
+              <a href='https://gi-replica.vercel.app/'>
                 <button className='visit'>
                   Visit Website
                   <FaChevronRight />

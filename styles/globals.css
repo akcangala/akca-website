@@ -184,6 +184,7 @@ a {
   /* margin-bottom: 20px; */
   color: white;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .bg {
@@ -479,6 +480,10 @@ ul {
 }
 
 @media screen and (max-width: 1024px) {
+  .name {
+    /* font-size: 45px; */
+    text-align: center;
+  }
 
   .mainAsset {
     width: 70vw;
@@ -508,6 +513,8 @@ ul {
     font-size: 45px;
     text-align: center;
   }
+
+  
 
   .bg-container {
     width: 70vw;
@@ -664,9 +671,6 @@ ul {
 
 .bg-container{  
   width: 90vw;
-}
-.greeting {
-text-align: center;
 }
 
 .footer {
