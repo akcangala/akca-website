@@ -428,26 +428,12 @@ ul {
   gap: 30px;
 }
 
-.footer p:nth-child(1) {
+.footer p{
   font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer p:nth-child(2) {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer p:nth-child(3) {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+}  
 
 .FaReact {
   margin-left: 10px;
@@ -458,6 +444,12 @@ ul {
 .FaRegCopyright {
   margin-right: 10px;
 }
+
+.px320 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
 
 @media screen and (max-width: 1350px) {
 
